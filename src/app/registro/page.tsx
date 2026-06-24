@@ -44,7 +44,7 @@ export default function RegistroPage() {
             El registro de trauma de Guatemala está disponible en la plataforma externa. Haz clic abajo para abrir el registro e ingresar datos del paciente.
           </p>
           <a
-            href="https://trauma-registry.vercel.app"
+            href="https://www.respondtraumaregistry.com/es/login"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-white text-[#1E3A5F] font-bold px-8 py-3 rounded-xl hover:bg-gray-100 transition-colors text-base shadow"
