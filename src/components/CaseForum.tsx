@@ -1,6 +1,8 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { forumCases, ForumCase, ForumReply } from "@/data/forumExamples";
+
+const STORAGE_KEY = "respond_forum_cases";
 
 const urgencyStyles: Record<string, string> = {
   Alta: "bg-red-100 text-red-700 border-red-300",
@@ -34,7 +36,19 @@ interface NewCaseForm {
 }
 
 export default function CaseForum() {
-  const [cases, setCases] = useState<ForumCase[]>(forumCases);
+  const [cases, setCases] = useState<ForumCase[]>(() => {
+    if (typeof window === "undefined") return forumCases;
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      return saved ? JSON.parse(saved) : forumCases;
+    } catch {
+      return forumCases;
+    }
+  });
+
+  useEffect(() => {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(cases));
+  }, [cases]);
   const [selectedCase, setSelectedCase] = useState<ForumCase | null>(null);
   const [replyText, setReplyText] = useState("");
   const [replyRole, setReplyRole] = useState<ForumReply["role"]>("Bombero");
