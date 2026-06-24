@@ -9,6 +9,7 @@ export default function NotificacionPage() {
         subtitle="Alerta al hospital receptor antes de la llegada del paciente para mejorar la preparación del equipo de trauma."
         badge="Comunicación · Hospital-Prehospitalario"
         color="blue"
+        photo="/photos/notification.jpg"
       />
 
       <div className="max-w-4xl mx-auto px-4 py-8 space-y-8">

@@ -43,18 +43,22 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="bg-[#7D1A1A] text-white py-14 px-4">
-        <div className="max-w-4xl mx-auto text-center">
+      <section
+        className="relative text-white py-20 px-4 bg-cover bg-center"
+        style={{ backgroundImage: "url(/photos/home.jpg)" }}
+      >
+        <div className="absolute inset-0 bg-[#7D1A1A]/75" />
+        <div className="relative max-w-4xl mx-auto text-center">
           <div className="inline-block bg-white/15 text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-5 tracking-wide uppercase">
             Guatemala · Atención Prehospitalaria de Trauma
           </div>
-          <h1 className="text-3xl sm:text-4xl font-bold mb-4 leading-tight">
+          <h1 className="text-3xl sm:text-4xl font-bold mb-4 leading-tight drop-shadow">
             RESPOND Guatemala
           </h1>
-          <p className="text-white/85 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-3">
+          <p className="text-white/90 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-3 drop-shadow">
             Plataforma de apoyo para bomberos y socorristas en Guatemala que brindan atención prehospitalaria a pacientes de trauma.
           </p>
-          <p className="text-white/65 text-sm max-w-xl mx-auto">
+          <p className="text-white/75 text-sm max-w-xl mx-auto drop-shadow">
             Estandarizar la educación en trauma, la notificación prehospitalaria, la consulta clínica y el registro de datos para mejorar los resultados del paciente antes de la llegada al hospital.
           </p>
         </div>

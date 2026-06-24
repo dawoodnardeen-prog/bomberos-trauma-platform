@@ -10,6 +10,7 @@ export default function DidacticsPage() {
         subtitle="Árboles de decisión clínica, contenido educativo y evaluaciones para la atención prehospitalaria de trauma. Sigue el marco X-ABCD."
         badge="Educación · Trauma Prehospitalario"
         color="burgundy"
+        photo="/photos/didactics.jpg"
       />
 
       <div className="max-w-5xl mx-auto px-4 py-8 space-y-10">

@@ -33,6 +33,7 @@ export default function RegistroPage() {
         subtitle="Herramienta de recolección de datos prehospitalarios y hospitalarios para el fortalecimiento del sistema de trauma en Guatemala."
         badge="Datos · Calidad · Investigación"
         color="blue"
+        photo="/photos/registry.jpg"
       />
 
       <div className="max-w-4xl mx-auto px-4 py-8 space-y-8">

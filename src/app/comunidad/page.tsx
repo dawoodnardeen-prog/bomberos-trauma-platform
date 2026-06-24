@@ -9,6 +9,7 @@ export default function ComunidadPage() {
         subtitle="Foro clínico para la coordinación del equipo de trauma. Publica casos con preguntas clínicas y recibe orientación de especialistas."
         badge="Comunidad · Aprendizaje Compartido"
         color="burgundy"
+        photo="/photos/community.jpg"
       />
 
       <div className="max-w-4xl mx-auto px-4 py-8 space-y-6">
