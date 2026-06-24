@@ -20,9 +20,9 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 font-bold text-lg leading-tight">
             <span className="hidden sm:block text-sm leading-tight">
-              RESPOND home
+              RESPOND inicio
             </span>
-            <span className="sm:hidden text-sm font-bold">RESPOND</span>
+            <span className="sm:hidden text-sm font-bold">RESPOND inicio</span>
           </Link>
 
           {/* Desktop nav */}

@@ -30,7 +30,7 @@ export default function NotificacionPage() {
         <section className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
           <h2 className="font-bold text-[#7D1A1A] mb-3">Ejemplo de notificación</h2>
           <div className="bg-[#f5e8e8] rounded-lg p-4 text-sm text-gray-800 leading-relaxed italic border-l-4 border-[#7D1A1A]">
-            &quot;Paciente masculino de 32 años, accidente en motocicleta, ETA 12 minutos. Vía aérea permeable. FR 28, SpO2 91%, FC 122, PA 90/60, GCS 13. Right chest pain; suspected R pneumothorax and R femur fracture. RLE bleeding controlled, RLE immobilized. Triage rojo. Solicita preparación del equipo de trauma.&quot;
+            &quot;Paciente masculino de 32 años, accidente en motocicleta, ETA 12 minutos. Vía aérea permeable. FR 28, SpO2 91%, FC 122, PA 90/60, GCS 13. Dolor torácico derecho; sospecha de neumotórax derecho y fractura de fémur derecho. Hemorragia de extremidad inferior derecha controlada, extremidad inferior derecha inmovilizada. Triage rojo. Solicita preparación del equipo de trauma.&quot;
           </div>
           <p className="text-xs text-gray-400 mt-2">
             Este es un ejemplo de referencia. Utiliza el formulario abajo para generar la notificación personalizada del paciente.

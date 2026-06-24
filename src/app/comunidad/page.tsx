@@ -6,7 +6,7 @@ export default function ComunidadPage() {
     <div>
       <PageHeader
         title="Comunidad de Práctica"
-        subtitle="Clinical forum for coordination of the trauma team. Publica casos con preguntas clínicas y recibe orientación de especialistas."
+        subtitle="Foro clínico para la coordinación del equipo de trauma. Publica casos con preguntas clínicas y recibe orientación de especialistas."
         badge="Comunidad · Aprendizaje Compartido"
         color="burgundy"
       />

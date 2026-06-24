@@ -82,7 +82,7 @@ export default function HomePage() {
 
       {/* Feature cards */}
       <section className="max-w-5xl mx-auto px-4 py-12">
-        <h2 className="text-xl font-bold text-gray-700 mb-6 text-center">Explore</h2>
+        <h2 className="text-xl font-bold text-gray-700 mb-6 text-center">Explorar</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           {features.map((f) => (
             <FeatureCard key={f.href} {...f} />
