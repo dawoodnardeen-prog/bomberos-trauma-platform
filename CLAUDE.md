@@ -1,11 +1,11 @@
-# Bomberos Trauma Platform — Claude Code Context
+# RESPOND Guatemala — Bomberos Trauma Platform — Claude Code Context
 
 ## What this project is
-A Next.js 15 + TypeScript + Tailwind CSS web app for Guatemalan bomberos (firefighters) providing prehospital trauma care. The platform is called **"Scoop, Run, and Tell"** and is part of the PGSSC Guatemala initiative.
+A Next.js 15 + TypeScript + Tailwind CSS web app for Guatemalan bomberos (firefighters) providing prehospital trauma care. The platform is called **"RESPOND Guatemala"** and is part of the PGSSC Guatemala initiative.
 
 **Live repo:** https://github.com/dawoodnardeen-prog/bomberos-trauma-platform  
-**External trauma registry:** https://trauma-registry.vercel.app  
-**Deploy target:** Vercel (zero-config)
+**External trauma registry:** https://www.respondtraumaregistry.com/es/login  
+**Deploy target:** Vercel (auto-deploys on every push to main)
 
 ## Pages
 - `/` — Homepage with 4 feature cards
@@ -40,12 +40,18 @@ A Next.js 15 + TypeScript + Tailwind CSS web app for Guatemalan bomberos (firefi
 - Blue: `#1E3A5F` (secondary, institutional)
 - Background: `#f9f7f7`
 - No emoji icons in UI (user preference)
-- Spanish-language labels, English code/comments
+- Spanish-language labels throughout; exceptions: "Exsanguination", "RESPOND Guatemala", "RESPOND inicio" stay as-is
+- Stock photos in `public/photos/` used as header backgrounds with color overlay on each page
+
+## Forum persistence
+- Forum cases and replies persist via `localStorage` (per browser/device)
+- Key: `respond_forum_cases` in `src/components/CaseForum.tsx`
+- Future: replace localStorage with Supabase / Firebase / Vercel Postgres for cross-device persistence
 
 ## Future backend integration points
 All marked with `// TODO:` comments in component files:
-- Forum persistence → Supabase / Firebase / Vercel Postgres
-- Auth → NextAuth.js
+- Forum persistence → upgrade from localStorage to Supabase / Firebase / Vercel Postgres
+- Auth → NextAuth.js (restrict to local hospital and pre-hospital staff)
 - Hospital push alerts → Twilio / FCM
 - Quiz score tracking → Supabase or localStorage
 
