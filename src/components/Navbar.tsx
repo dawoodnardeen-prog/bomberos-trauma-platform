@@ -19,11 +19,10 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 font-bold text-lg leading-tight">
-            <span className="text-2xl">🚒</span>
             <span className="hidden sm:block text-sm leading-tight">
-              Bomberos<br />
-              <span className="font-normal text-xs opacity-90">Plataforma de Trauma</span>
+              RESPOND home
             </span>
+            <span className="sm:hidden text-sm font-bold">RESPOND</span>
           </Link>
 
           {/* Desktop nav */}

@@ -17,11 +17,11 @@ export default function DidacticsPage() {
         <section className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm">
           <h2 className="font-bold text-[#7D1A1A] text-lg mb-3">Marco X-ABCD</h2>
           <p className="text-gray-600 text-sm mb-4 leading-relaxed">
-            La evaluación y estabilización del paciente de trauma sigue el marco sistemático X-ABCD: control de <strong>Exanguinación</strong>, <strong>Vía Aérea</strong>, <strong>Respiración</strong>, <strong>Circulación</strong> y <strong>Déficit neurológico</strong>. Cada componente tiene un árbol de decisión que guía la evaluación y las intervenciones en campo.
+            La evaluación y estabilización del paciente de trauma sigue el marco sistemático X-ABCD: control de <strong>Exsanguination</strong>, <strong>Vía Aérea</strong>, <strong>Respiración</strong>, <strong>Circulación</strong> y <strong>Déficit neurológico</strong>. Cada componente tiene un árbol de decisión que guía la evaluación y las intervenciones en campo.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
             {[
-              { letter: "X", label: "Exanguinación", sub: "Control hemorragia" },
+              { letter: "X", label: "Exsanguination", sub: "Control hemorragia" },
               { letter: "A", label: "Airway", sub: "Vía aérea" },
               { letter: "B", label: "Breathing", sub: "Respiración" },
               { letter: "C", label: "Circulation", sub: "Circulación" },

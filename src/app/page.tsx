@@ -49,7 +49,7 @@ export default function HomePage() {
             Guatemala · Atención Prehospitalaria de Trauma
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold mb-4 leading-tight">
-            Scoop, Run, and Tell
+            RESPOND Guatemala
           </h1>
           <p className="text-white/85 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-3">
             Plataforma de apoyo para bomberos y socorristas en Guatemala que brindan atención prehospitalaria a pacientes de trauma.
@@ -82,7 +82,7 @@ export default function HomePage() {
 
       {/* Feature cards */}
       <section className="max-w-5xl mx-auto px-4 py-12">
-        <h2 className="text-xl font-bold text-gray-700 mb-6 text-center">¿Qué necesitas hoy?</h2>
+        <h2 className="text-xl font-bold text-gray-700 mb-6 text-center">Explore</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           {features.map((f) => (
             <FeatureCard key={f.href} {...f} />
@@ -95,7 +95,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-lg font-bold text-[#1E3A5F] mb-3">Sobre esta plataforma</h2>
           <p className="text-gray-600 text-sm leading-relaxed mb-4">
-            Esta plataforma fue desarrollada para apoyar a los bomberos de Guatemala que proveen atención prehospitalaria a pacientes de trauma en contextos de bajos recursos. El currículo sigue el marco X-ABCD: Exanguinación, Vía Aérea, Respiración, Circulación y Déficit neurológico.
+            Esta plataforma fue desarrollada para apoyar a los bomberos de Guatemala que proveen atención prehospitalaria a pacientes de trauma en contextos de bajos recursos. El currículo sigue el marco X-ABCD: Exsanguination, Vía Aérea, Respiración, Circulación y Déficit neurológico.
           </p>
           <p className="text-gray-500 text-xs">
             Esta herramienta apoya la atención clínica pero no reemplaza los protocolos locales, la dirección médica ni el juicio clínico en emergencias.
